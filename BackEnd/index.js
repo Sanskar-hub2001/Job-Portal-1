@@ -126,9 +126,9 @@ app.use(cookieParser());
 // CORS Setup
 const corsOptions = {
     origin: [
-        'http://localhost:5173',
+        // 'http://localhost:5173',
         'https://job-portal-1-client-1-cv75s41p3-sanskar-singh-baghels-projects.vercel.app',
-        'https://careerhorizon123.netlify.app'
+        // 'https://careerhorizon123.netlify.app'
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
