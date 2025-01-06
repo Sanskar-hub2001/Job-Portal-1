@@ -127,7 +127,7 @@ app.use(cookieParser());
 const corsOptions = {
     origin: [
         // 'http://localhost:5173',
-        'https://job-portal-1-client-1-cv75s41p3-sanskar-singh-baghels-projects.vercel.app',
+        'https://job-portal-1-server-1uvmjsl2t-sanskar-singh-baghels-projects.vercel.app/',
         // 'https://careerhorizon123.netlify.app'
     ],
     credentials: true,
